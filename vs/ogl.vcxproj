@@ -60,29 +60,29 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>$(ProjectDir)..\src;$(ProjectDir)..\..;$(ProjectDir)..\..\ext;$(IncludePath)</IncludePath>
-    <LibraryPath>$(ProjectDir)..\..\ext\lib\$(Configuration)-$(PlatformName);$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir)..\src;$(ProjectDir)..;$(ProjectDir)ext;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)ext\lib\$(Configuration)-$(PlatformName);$(LibraryPath)</LibraryPath>
     <OutDir>$(ProjectDir)build\$(Configuration)-$(PlatformName)\</OutDir>
     <IntDir>$(ProjectDir)temp\$(Configuration)-$(PlatformName)\</IntDir>
     <TargetName>$(ProjectName)-$(Configuration)-$(PlatformName)</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <IncludePath>$(ProjectDir)..\src;$(ProjectDir)..\..;$(ProjectDir)..\..\ext;$(IncludePath)</IncludePath>
-    <LibraryPath>$(ProjectDir)..\..\ext\lib\$(Configuration)-$(PlatformName);$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir)..\src;$(ProjectDir)..;$(ProjectDir)ext;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)ext\lib\$(Configuration)-$(PlatformName);$(LibraryPath)</LibraryPath>
     <OutDir>$(ProjectDir)build\$(Configuration)-$(PlatformName)\</OutDir>
     <IntDir>$(ProjectDir)temp\$(Configuration)-$(PlatformName)\</IntDir>
     <TargetName>$(ProjectName)-$(Configuration)-$(PlatformName)</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>$(ProjectDir)..\src;$(ProjectDir)..\..;$(ProjectDir)..\..\ext;$(IncludePath)</IncludePath>
-    <LibraryPath>$(ProjectDir)..\..\ext\lib\$(Configuration)-$(PlatformName);$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir)..\src;$(ProjectDir)..;$(ProjectDir)ext;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)ext\lib\$(Configuration)-$(PlatformName);$(LibraryPath)</LibraryPath>
     <OutDir>$(ProjectDir)build\$(Configuration)-$(PlatformName)\</OutDir>
     <IntDir>$(ProjectDir)temp\$(Configuration)-$(PlatformName)\</IntDir>
     <TargetName>$(ProjectName)-$(Configuration)-$(PlatformName)</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>$(ProjectDir)..\src;$(ProjectDir)..\..;$(ProjectDir)..\..\ext;$(IncludePath)</IncludePath>
-    <LibraryPath>$(ProjectDir)..\..\ext\lib\$(Configuration)-$(PlatformName);$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir)..\src;$(ProjectDir)..;$(ProjectDir)ext;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)ext\lib\$(Configuration)-$(PlatformName);$(LibraryPath)</LibraryPath>
     <OutDir>$(ProjectDir)build\$(Configuration)-$(PlatformName)\</OutDir>
     <IntDir>$(ProjectDir)temp\$(Configuration)-$(PlatformName)\</IntDir>
     <TargetName>$(ProjectName)-$(Configuration)-$(PlatformName)</TargetName>
