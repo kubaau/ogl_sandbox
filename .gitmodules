@@ -1,6 +1,3 @@
 [submodule "tools"]
 	path = tools
 	url = git@github.com:kubaau/tools.git
-[submodule "glm"]
-	path = glm
-	url = git@github.com:g-truc/glm.git

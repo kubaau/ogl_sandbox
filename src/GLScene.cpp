@@ -2,8 +2,8 @@
 #define GLM_ENABLE_EXPERIMENTAL
 #include <tools/SimpleTimer.hpp>
 #include <tools/ThreadSafeLogger.hpp>
-#include <glm/glm/gtx/euler_angles.hpp>
-#include <glm/glm/gtx/transform.hpp>
+#include <glm/gtx/euler_angles.hpp>
+#include <glm/gtx/transform.hpp>
 #include "GLInit.hpp"
 
 VbHandle vb;

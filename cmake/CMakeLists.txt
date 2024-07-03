@@ -7,6 +7,7 @@ include(../tools/CMakeCommon.cmake)
 verifyCppCompiler(8 6)
 
 find_package(GLEW REQUIRED)
+find_package(glm REQUIRED)
 find_package(GLUT REQUIRED)
 find_package(OpenGL REQUIRED)
 
